@@ -10,7 +10,7 @@ function HeaderContainer() {
     return (
         <div>
             <ImageThumbnail />
-            <div className='contentDiv'>
+            <div className='contentCont'>
                 <HeaderTitle />
                 <HeaderContent />
             </div>
