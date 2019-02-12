@@ -1,0 +1,15 @@
+.calcDisplayStyle {
+    width: 455px;
+    height: 125px;
+    background-color: #222222;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    font-family: sans-serif;
+    border: 1px solid #979797;
+}
+
+.calcDisplayStyle h2 {
+    font-size: 3rem;
+}

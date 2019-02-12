@@ -14,7 +14,7 @@ import Row5 from './components/RowComponents/Row5'
 const App = () => {
   return (
     <div>
-      <CalculatorDisplay />
+      <CalculatorDisplay display={{value:0}}/>
       <Row1 />
       <Row2 />
       <Row3 />
