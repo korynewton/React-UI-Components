@@ -1,9 +1,12 @@
 import React from 'react'
+import ActionButton from "../ButtonComponents/ActionButton"
+import NumberButton from "../ButtonComponents/NumberButton"
 
 const Row1 = props => {
     return (
         <div>
-            <h2>test</h2>
+            <ActionButton text="clear"/>
+            <NumberButton buttonStyle ="operatorButton" text="&#247;"/>
         </div>
     )
 }
