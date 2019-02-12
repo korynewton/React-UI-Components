@@ -1,11 +1,14 @@
 import React from 'react'
+import ActionButton from "../ButtonComponents/ActionButton"
+import NumberButton from "../ButtonComponents/NumberButton"
 
-const Row5 = props => {
+const Row1 = props => {
     return (
         <div>
-            <h2>test</h2>
+            <ActionButton text="0"/>
+            <NumberButton buttonStyle ="operatorButton" text="="/>
         </div>
     )
 }
 
-export default Row5
+export default Row1

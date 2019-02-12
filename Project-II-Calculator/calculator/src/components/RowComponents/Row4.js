@@ -1,9 +1,14 @@
 import React from 'react'
+import ActionButton from "../ButtonComponents/ActionButton"
+import NumberButton from "../ButtonComponents/NumberButton"
 
 const Row4 = props => {
     return (
         <div>
-            <h2>test</h2>
+            <NumberButton buttonStyle ="numberButton" text="1"/>
+            <NumberButton buttonStyle ="numberButton" text="2"/>
+            <NumberButton buttonStyle ="numberButton" text="3"/>
+            <NumberButton buttonStyle ="operatorButton" text="+"/>           
         </div>
     )
 }
