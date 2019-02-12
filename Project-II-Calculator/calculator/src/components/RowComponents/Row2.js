@@ -4,7 +4,7 @@ import NumberButton from "../ButtonComponents/NumberButton"
 
 const Row2 = props => {
     return (
-        <div>
+        <div className='row'>
             <NumberButton buttonStyle ="numberButton" text="7"/>
             <NumberButton buttonStyle ="numberButton" text="8"/>
             <NumberButton buttonStyle ="numberButton" text="9"/>

@@ -4,7 +4,7 @@ import NumberButton from "../ButtonComponents/NumberButton"
 
 const Row1 = props => {
     return (
-        <div>
+        <div className='row'>
             <ActionButton text="clear"/>
             <NumberButton buttonStyle ="operatorButton" text="&#247;"/>
         </div>
