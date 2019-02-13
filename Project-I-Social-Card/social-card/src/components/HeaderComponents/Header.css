@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.header img {
+    max-width: 55px;
+    max-height: 55px;
+    padding: 3px 5px 0 5px;
+    /* border: 1px solid black; */
+}
+
+.contentCont {
+    /* border: 1px solid black; */
+    width: 515px;
+
+}
+
+.contentCont h1 {
+    font-size: 1rem;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.contentCont h1 span {
+    color: #9EABB5;
+    font-family: Helvetica, sans-serif;
+    font-size: .8rem;
+    font-weight: 200;
+
+
+}
+
+.contentCont h3 {
+    font-size: .8rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+
+}

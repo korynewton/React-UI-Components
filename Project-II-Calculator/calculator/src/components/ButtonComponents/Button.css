@@ -1,0 +1,44 @@
+.actionButton {
+    width:345px;
+    height: 95px;
+    background: white;
+    color: #272727;
+    font-size: 40px;
+    border-left: 1px solid #979797;
+    border-right: none;
+    border-bottom: 1px solid #979797;
+    border-top: none;
+}
+
+.numberButton {
+    height: 95px;
+    width: 115px;
+    color: #222222;
+    background-color: white;
+    font-size:30px;
+    margin-top: 0px;
+    border-left: 1px solid #979797;
+    border-right: none;
+    border-bottom: 1px solid #979797;
+    border-top:none;
+
+}
+
+.operatorButton {
+    height: 95px;
+    width: 115px;
+    background-color: #A0001E;
+    color:white;
+    font-size:45px;
+    border-left: 1px solid #979797;
+    border-right: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    border-top: none;
+
+
+
+
+
+
+
+}
